@@ -31,7 +31,7 @@ fi
 akbarvpn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/xray"
+akbarvpnn="raw.githubusercontent.com/User058/scriptvps/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
 akbarvpnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/trojango"
@@ -227,7 +227,7 @@ RUN=yes
 # systemd users: don't forget to modify /lib/systemd/system/sslh.service
 DAEMON=/usr/sbin/sslh
 
-DAEMON_OPTS="--user sslh --listen 0.0.0.0:443 --ssl 127.0.0.1:777 --ssh 127.0.0.1:109 --openvpn 127.0.0.1:1194 --http 127.0.0.1:8880 --pidfile /var/run/sslh/sslh.pid -n"
+DAEMON_OPTS="--user sslh --listen 0.0.0.0:443 --ssl 127.0.0.1:777 --ssh 127.0.0.1:109 --openvpn 127.0.0.1:1194 --http 127.0.0.1:80 --pidfile /var/run/sslh/sslh.pid -n"
 
 END
 
@@ -429,23 +429,24 @@ wget -O portvlm "https://${akbarvpn}/portvlm.sh"
 wget -O wbmn "https://${akbarvpn}/webmin.sh"
 wget -O xp "https://${akbarvpn}/xp.sh"
 wget -O swapkvm "https://${akbarvpn}/swapkvm.sh"
-wget -O addvmess "https://${akbarvpnn}/addv2ray.sh"
-wget -O addvless "https://${akbarvpnn}/addvless.sh"
-wget -O addtrojan "https://${akbarvpnn}/addtrojan.sh"
-wget -O delvmess "https://${akbarvpnn}/delv2ray.sh"
-wget -O delvless "https://${akbarvpnn}/delvless.sh"
-wget -O deltrojan "https://${akbarvpnn}/deltrojan.sh"
-wget -O cekvmess "https://${akbarvpnn}/cekv2ray.sh"
-wget -O cekvless "https://${akbarvpnn}/cekvless.sh"
-wget -O cektrojan "https://${akbarvpnn}/cektrojan.sh"
-wget -O renewvmess "https://${akbarvpnn}/renewv2ray.sh"
-wget -O renewvless "https://${akbarvpnn}/renewvless.sh"
-wget -O renewtrojan "https://${akbarvpnn}/renewtrojan.sh"
-wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
-wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
-wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
-wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
-wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
+# wget -O addvmess "https://${akbarvpnn}/addv2ray.sh"
+# wget -O addvless "https://${akbarvpnn}/addvless.sh"
+# wget -O addtrojan "https://${akbarvpnn}/addtrojan.sh"
+# wget -O delvmess "https://${akbarvpnn}/delv2ray.sh"
+# wget -O delvless "https://${akbarvpnn}/delvless.sh"
+# wget -O deltrojan "https://${akbarvpnn}/deltrojan.sh"
+# wget -O cekvless "https://${akbarvpnn}/cekvless.sh"
+# wget -O cektrojan "https://${akbarvpnn}/cektrojan.sh"
+# wget -O renewvmess "https://${akbarvpnn}/renewv2ray.sh"
+# wget -O renewvless "https://${akbarvpnn}/renewvless.sh"
+# wget -O renewtrojan "https://${akbarvpnn}/renewtrojan.sh"
+# wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
+# wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
+# wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
+# wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
+# wget -O cekvmess "https://${akbarvpnn}/cekv2ray.sh"
+# wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
+
 chmod +x addhost
 chmod +x menu
 chmod +x addssh
