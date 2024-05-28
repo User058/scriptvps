@@ -30,7 +30,7 @@ akbarvpnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
 akbarvpnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/User058/scriptvps/main/xray"
 # Link Hosting Kalian Untuk Ipsec
 akbarvpnnnnnnn="raw.githubusercontent.com/AkbarStoreVPN/scriptvps/main/ipsec"
 # Link Hosting Kalian Untuk Backup
